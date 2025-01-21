@@ -1,0 +1,33 @@
+body{
+    background-image: url('./bg.png');
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    width: 450px;
+    position:absolute;
+}
+.black{
+   background-color: #647E0F;
+}
+.white{
+    background-color: #8FB01B;
+}
+.box{
+    height: 50px;
+    width:50px;
+    border-radius: 5px;
+}
+.navigation{
+    display:flex;
+}
+.navigation > span{
+    align-items: center;
+}
+.border-success-subtle {
+    border-color: #647E0F !important;
+}
+.bg-success-subtle {
+    background-color: #8FB01B !important;
+}
