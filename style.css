@@ -1,24 +1,34 @@
-body{
-    display: flex;
-    width:100vw;
-    height:100vh;
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
 }
-#settings{
+#settings {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: aqua;
+  padding: 10px;
+  margin: 10px;
+}
+button:hover {
+  background-color: rgb(7, 114, 255);
+}
+.triangle {
     position: absolute;
-    top: 20px;
-    left: 20px;
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-button{
-    background-color: aqua;
-    padding: 10px;
-    margin: 10px;
-}
-button:hover{
-    background-color: rgb(7, 114, 255);
+    bottom: 0;
+    left: 0;
+  width: 500px;
+  height: 500px;
+  background-image: url('./assets/snow_theme.png');
+  background-size: cover;
+  clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
 }
