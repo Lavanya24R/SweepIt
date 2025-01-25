@@ -1,5 +1,5 @@
 body{
-    background-image: url("./assets/snow_theme.png");
+    background-image: url("./assets/spooky_theme.png");
     /* background-size: cover;
     background-position: center; */
     z-index: -1;
@@ -15,13 +15,13 @@ body{
     left:29%;
 }
 .box:hover{
-    background-color:#000B26;
+    background-color:#AD49E1;
 }
 .black{
-   background-color: #395D87;
+   background-color:#7F27FF;
 }
 .white{
-    background-color: #7395C6;
+    background-color:#9F70FD;
 }
 .box{
     height:60px;
