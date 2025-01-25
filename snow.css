@@ -1,8 +1,13 @@
 body{
     background-image: url("./assets/snow_theme.png");
-    /* background-size: cover;
-    background-position: center; */
+    background-size: cover;
+    background-position: center;
     z-index: -1;
+    margin:0;
+    padding:0;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .container{
     display:grid;
@@ -38,7 +43,7 @@ body{
 .points svg{
     margin-right:15px;
     margin-left:10px;
-    fill:yellow;
+    fill:white;
 }
 .points span{
     font-family:fantasy;
@@ -57,10 +62,10 @@ span{
     margin-left:30px;
 }
 .border-success-subtle {
-    border-color: #8B5701 !important;
+    border-color:#395D87 !important;
 }
 .bg-success-subtle {
-    background-color: #553A17 !important;
+    background-color:#7395C6 !important;
 }
 .theme{
     width:100%;
@@ -68,8 +73,7 @@ span{
     bottom:0;
 }
 .icons svg{
-    fill:#553A17;
-    /* fill:#8B5701; */
+    fill:snow;
 }
 .text-success-emphasis {
     color: white !important;

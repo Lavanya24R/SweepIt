@@ -1,8 +1,13 @@
 body{
     background-image: url("./assets/spooky_theme.png");
-    /* background-size: cover;
-    background-position: center; */
+    background-size: cover;
+    background-position: center;
     z-index: -1;
+    margin:0;
+    padding:0;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .container{
     display:grid;
@@ -15,13 +20,13 @@ body{
     left:29%;
 }
 .box:hover{
-    background-color:#AD49E1;
+    background-color:#D1B0FB !important;
 }
 .black{
-   background-color:#7F27FF;
+   background-color:#a869fb !important;
 }
 .white{
-    background-color:#9F70FD;
+    background-color:#b390f9 !important;
 }
 .box{
     height:60px;
@@ -38,7 +43,7 @@ body{
 .points svg{
     margin-right:15px;
     margin-left:10px;
-    fill:yellow;
+    fill:#c59ef7;
 }
 .points span{
     font-family:fantasy;
@@ -57,10 +62,10 @@ span{
     margin-left:30px;
 }
 .border-success-subtle {
-    border-color: #8B5701 !important;
+    border-color:black !important;
 }
 .bg-success-subtle {
-    background-color: #553A17 !important;
+    background-color: rgb(49, 49, 49) !important;
 }
 .theme{
     width:100%;
@@ -68,8 +73,7 @@ span{
     bottom:0;
 }
 .icons svg{
-    fill:#553A17;
-    /* fill:#8B5701; */
+    fill:black;
 }
 .text-success-emphasis {
     color: white !important;

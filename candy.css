@@ -21,13 +21,13 @@ body{
     left:29%;
 }
 .box:hover{
-    background-color:#553501 !important;
+    background-color:#543310 !important;
 }
 .black{
-   background-color: #647E0F !important;
+   background-color: #b07140 !important;
 }
 .white{
-    background-color: #8FB01B !important;
+    background-color: #fce2ad!important;
 }
 .box{
     height:60px;
@@ -44,7 +44,7 @@ body{
 .points svg{
     margin-right:15px;
     margin-left:10px;
-    fill:yellow;
+    fill:#fce2ad;
 }
 .points span{
     font-family:fantasy;
@@ -63,10 +63,10 @@ span{
     margin-left:30px;
 }
 .border-success-subtle {
-    border-color: #8B5701 !important;
+    border-color: #543310 !important;
 }
 .bg-success-subtle {
-    background-color: #553A17 !important;
+    background-color: #b07140 !important;
 }
 .theme{
     width:100%;
@@ -74,7 +74,7 @@ span{
     bottom:0;
 }
 .icons svg{
-    fill:#553A17;
+    fill:#fce2ad;
 }
 .text-success-emphasis {
     color: white !important;
