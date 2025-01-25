@@ -1,0 +1,81 @@
+body{
+    background-image: url("./assets/candy_theme.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    margin:0;
+    padding:0;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    width: 580px;
+    gap:5px;
+    position:absolute;
+    top: 10%;
+    left:29%;
+}
+.box:hover{
+    background-color:#553501 !important;
+}
+.black{
+   background-color: #647E0F !important;
+}
+.white{
+    background-color: #8FB01B !important;
+}
+.box{
+    height:60px;
+    width:60px;
+    border-radius: 5px;
+}
+.navigation{
+    display:flex;
+    justify-content: space-evenly;
+    height:12vh;
+    align-items: center;
+    flex:1;
+}
+.points svg{
+    margin-right:15px;
+    margin-left:10px;
+    fill:yellow;
+}
+.points span{
+    font-family:fantasy;
+    font-size:large;
+}
+span{
+    margin-left:50px;
+}
+.icons{
+    display:flex;
+    justify-content: space-evenly;
+    margin-left:auto;
+    margin-right: 50px;
+}
+.icons > div{
+    margin-left:30px;
+}
+.border-success-subtle {
+    border-color: #8B5701 !important;
+}
+.bg-success-subtle {
+    background-color: #553A17 !important;
+}
+.theme{
+    width:100%;
+    position:fixed;
+    bottom:0;
+}
+.icons svg{
+    fill:#553A17;
+}
+.text-success-emphasis {
+    color: white !important;
+}
