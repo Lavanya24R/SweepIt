@@ -13,27 +13,42 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
-.theme_options{
-  display:flex;
+.theme_options {
+  display: flex;
   flex-direction: column;
 }
-button {
-  background-color: aqua;
-  padding: 10px;
-  margin: 10px;
+.options {
+  background-color: rgba(255, 255, 0, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
 }
-button:hover {
-  background-color: rgb(7, 114, 255);
+.options:hover {
+  background-color: #ffff00;
+  color: #1a1a1a;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 .snow {
-    position: absolute;
-    display: flex;
-    bottom: 0;
-    left: 0;
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  left: 0;
   width: 500px;
   height: 100%;
-  background-image: url('./assets/snow_theme.png');
+  background-image: url("./assets/snow_theme.png");
   background-size: cover;
   clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
   z-index: -1;
@@ -43,29 +58,29 @@ button:hover {
   position: absolute;
   display: flex;
   z-index: -1;
-width: 1000px;
-height: 100%;
-background-image: url('./assets/garden_element.png');
-background-size: cover;
-clip-path: polygon(0 0, 500px 100%, 100% 100%, 500px 0);
+  width: 1000px;
+  height: 100%;
+  background-image: url("./assets/garden_element.png");
+  background-size: cover;
+  clip-path: polygon(0 0, 500px 100%, 100% 100%, 500px 0);
 }
-.candy{
+.candy {
   position: absolute;
   display: flex;
   z-index: -1;
   width: 1500px;
-height: 100%;
-background-image: url('./assets/candy_element.png');
-background-size: cover;
-clip-path: polygon(500px 0, 1000px 100%, 100% 100%, 1000px 0);
+  height: 100%;
+  background-image: url("./assets/candy_element.png");
+  background-size: cover;
+  clip-path: polygon(500px 0, 1000px 100%, 100% 100%, 1000px 0);
 }
-.spooky{
+.spooky {
   position: absolute;
   display: flex;
   z-index: -1;
   width: 100%;
-height: 100%;
-background-image: url('./assets/spooky_element.png');
-background-size: cover;
-clip-path: polygon(1000px 0, 1500px 100%, 100% 100%, 100% 0);
+  height: 100%;
+  background-image: url("./assets/spooky_element.png");
+  background-size: cover;
+  clip-path: polygon(1000px 0, 1500px 100%, 100% 100%, 100% 0);
 }
