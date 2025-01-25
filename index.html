@@ -10,6 +10,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
 
@@ -30,13 +31,30 @@
     </div>
     <div class="container">
       <button>Play</button>
-      <button>Theme</button>
+      <button>Theme <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+      </svg></button>
       <button>Leaderboard</button>
-      <div class="theme_options">
-        <a href="#" class="neon-button neon-blue">Download</a>
-        <a href="#" class="neon-button neon-pink">Login</a>
-        <a href="#" class="neon-button neon-yellow">Read More</a>
-        <a href="#" class="neon-button neon-green">Buy Now</a>
+        <div class="dropdown-menu d-block position-static border-0 pt-0 mx-0 rounded-3 shadow overflow-hidden w-280px">
+          <ul class="list-unstyled mb-0">
+            <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="garden.html">
+              <span class="d-inline-block bg-success rounded-circle p-1"></span>
+              Garden Gloom!
+            </a></li>
+            <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="snow.html">
+              <span class="d-inline-block bg-primary rounded-circle p-1"></span>
+              Snow Season!
+            </a></li>
+            <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="candy.html">
+              <span class="d-inline-block bg-danger rounded-circle p-1"></span>
+              Candy Craving!
+            </a></li>
+            <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="spooky.html">
+              <span class="d-inline-block bg-info rounded-circle p-1"></span>
+              Spooky Night!
+            </a></li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="snow"></div>
