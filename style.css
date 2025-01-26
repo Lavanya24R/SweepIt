@@ -84,3 +84,6 @@ body {
   background-size: cover;
   clip-path: polygon(1000px 0, 1500px 100%, 100% 100%, 100% 0);
 }
+.dropdown-menu{
+  display: none;
+}
